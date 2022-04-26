@@ -31,7 +31,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ),
           );
         },
-        backgroundColor: CustomColors.blueColor, // CustomColors.firebaseOrange,
+        backgroundColor: CustomColors.firebaseOrange,
         child: Icon(
           Icons.add,
           color: Colors.white,

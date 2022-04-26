@@ -57,8 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Text(
                         'CRUD',
                         style: TextStyle(
-                          color: CustomColors
-                              .blueColor, // CustomColors.firebaseOrange,
+                          color: CustomColors.firebaseOrange,
                           fontSize: 40,
                         ),
                       ),
@@ -76,8 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                     return CircularProgressIndicator(
                       valueColor: AlwaysStoppedAnimation<Color>(
-                        //CustomColors.firebaseOrange,
-                        CustomColors.blueColor,
+                        CustomColors.firebaseOrange,
                       ),
                     );
                   },

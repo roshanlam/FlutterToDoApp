@@ -23,7 +23,7 @@ class AppBarTitle extends StatelessWidget {
         Text(
           ' CRUD',
           style: TextStyle(
-            color: CustomColors.blueColor, // CustomColors.firebaseOrange,
+            color: CustomColors.firebaseOrange,
             fontSize: 18,
           ),
         ),
